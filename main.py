@@ -11,7 +11,8 @@ from utils.clsf_extended import plot_confusion_matrix, evaluate_clsf
 
 # Part1: Load dataset
 pd.set_option('display.max_columns', None)      # to show all columns - optional
-df = pd.read_csv(r"C:\1.PIGGEST\06_Course\CU-04\data\drive-download-20241029T083016Z-001\Bank\bankdataset.csv")
+path = "https://drive.google.com/uc?id=1QctGSSR5wSQk6cbdjBrKjYcUPs6PHNHN"
+df = pd.read_csv(path)
 print(f'Example of dataset:\n{df.head()}')
 print(f'Columns name:\n{df.columns}')
 
