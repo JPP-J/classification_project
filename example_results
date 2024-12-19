@@ -1,0 +1,122 @@
+> classifiers.py
+
+Logistic Regression Accuracy: 0.90
+Logistic Regression Confusion Matrix:
+[[1187   11]
+ [ 128   27]]
+----------------------------------------
+Decision Tree Accuracy: 0.89
+Decision Tree Confusion Matrix:
+[[1185   13]
+ [ 130   25]]
+----------------------------------------
+K-Nearest Neighbors Accuracy: 0.88
+K-Nearest Neighbors Confusion Matrix:
+[[1184   14]
+ [ 143   12]]
+----------------------------------------
+Support Vector Machine Accuracy: 0.89
+Support Vector Machine Confusion Matrix:
+[[1198    0]
+ [ 155    0]]
+----------------------------------------
+Random Forest Accuracy: 0.88
+Random Forest Confusion Matrix:
+[[1172   26]
+ [ 130   25]]
+----------------------------------------
+Naive Bayes Accuracy: 0.82
+Naive Bayes Confusion Matrix:
+[[1044  154]
+ [  88   67]]
+----------------------------------------
+Gradient Boosting Accuracy: 0.89
+Gradient Boosting Confusion Matrix:
+[[1182   16]
+ [ 134   21]]
+----------------------------------------
+AdaBoost Accuracy: 0.90
+AdaBoost Confusion Matrix:
+[[1184   14]
+ [ 126   29]]
+----------------------------------------
+
+> main.py
+
+Example of dataset:
+   id   age          job  marital  education default  balance housing loan  \
+0   1  30.0   unemployed  married    primary      no     1787      no   no
+1   2  33.0     services  married  secondary      no     4789     yes  yes
+2   3  35.0   management   single   tertiary      no     1350     yes   no
+3   4  30.0   management  married   tertiary      no     1476     yes  yes
+4   5  59.0  blue-collar  married  secondary      no        0     yes   no
+
+    contact  day month  duration  campaign  pdays  previous poutcome   y
+0  cellular   19   oct        79         1     -1         0  unknown  no
+1  cellular   11   may       220         1    339         4  failure  no
+2  cellular   16   apr       185         1    330         1  failure  no
+3   unknown    3   jun       199         4     -1         0  unknown  no
+4   unknown    5   may       226         1     -1         0  unknown  no
+Columns name:
+Index(['id', 'age', 'job', 'marital', 'education', 'default', 'balance',
+       'housing', 'loan', 'contact', 'day', 'month', 'duration', 'campaign',
+       'pdays', 'previous', 'poutcome', 'y'],
+      dtype='object')
+Null data:
+id            0
+age          39
+job           0
+marital       0
+education     0
+default       0
+balance       0
+housing       0
+loan          0
+contact       0
+day           0
+month         0
+duration      0
+campaign      0
+pdays         0
+previous      0
+poutcome      0
+y             0
+dtype: int64
+
+Decision Tree
+Accuracy Score: 0.8950
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          no       0.90      0.99      0.94      1198
+         yes       0.67      0.17      0.27       155
+
+    accuracy                           0.90      1353
+   macro avg       0.78      0.58      0.61      1353
+weighted avg       0.87      0.90      0.87      1353
+
+
+Confusion Matrix:
+[[1185   13]
+ [ 129   26]]
+['no' 'yes']
+
+LogisticRegression
+Accuracy Score: 0.8958
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          no       0.90      0.99      0.94      1198
+         yes       0.68      0.17      0.27       155
+
+    accuracy                           0.90      1353
+   macro avg       0.79      0.58      0.61      1353
+weighted avg       0.88      0.90      0.87      1353
+
+
+Confusion Matrix:
+[[1186   12]
+ [ 129   26]]
+
