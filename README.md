@@ -1,8 +1,8 @@
 # Classification Project
 
 This repo is home to the code that accompanies Jidapa's *Classification Project* , which provides; 
-- example python code for classification data with
-  - classifiers.py (train different model and measure performance)
+- example python code for classification data with [bank dataset](https://drive.google.com/file/d/1QctGSSR5wSQk6cbdjBrKjYcUPs6PHNHN/view?usp=drive_link) with [detail of dataset](https://drive.google.com/file/d/1K2wneqZNolblPX2WBbC2keoxZSg7ATYe/view?usp=sharing)
+  - [classifiers.py](https://github.com/JPP-J/classification_project/blob/02507fd49eee8c7c34dc405c08184d746838672a/classifiers.py) (train different model and measure performance)
     - "Logistic Regression"
     - "Decision Tree"
     - "K-Nearest Neighbors"
@@ -11,4 +11,4 @@ This repo is home to the code that accompanies Jidapa's *Classification Project*
     - "Naive Bayes"
     - "Gradient Boosting"
     - "AdaBoost"
-  - main.py (usage "Logistic Regression" and "Decision Tree") : Trained model and measure performance also plot tree diagram 
+  - [main.py](https://github.com/JPP-J/classification_project/blob/02507fd49eee8c7c34dc405c08184d746838672a/main.py) (usage "Logistic Regression" and "Decision Tree") : Trained model and measure performance also plot tree diagram 
