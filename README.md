@@ -30,7 +30,7 @@ Eight popular classification algorithms are evaluated, including Logistic Regres
 - ✅ Model Performance Summary [`classifiers.py`](classifiers.py)
 - **Best Accuracy:** Logistic Regression and AdaBoost achieved **90% accuracy**  
 - **Key Insight:** All models struggle with low recall on the positive class (`yes`), indicating challenges in identifying subscribers reliably  
-- **Outcome:** Provides a practical baseline and comparison for marketing campaign classification, enabling more informed targeting strategies  
+- **Outcome:** Provides a practical baseline and comparison for marketing campaign classification, enabling more informed targeting strategies
 
   | Model                  | Accuracy | Confusion Matrix (TN, FP, FN, TP) |
   |------------------------|----------|------------------------------------|
